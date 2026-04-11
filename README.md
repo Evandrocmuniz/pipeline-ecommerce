@@ -15,6 +15,24 @@ Projeto de portfolio de engenharia de dados que processa mais de 1.3 milhao de r
 - SQL (CTEs, Window Functions, agregacoes)
 
 ## Arquitetura
+### Fluxo ETL
+Raw CSVs (Kaggle/Olist) → etl.py → PostgreSQL → SQL Queries → Insights
+
+### Estrutura do Projeto
+pipeline-ecommerce/
+├── data/           # CSVs originais do Olist
+├── etl.py          # Pipeline principal (extração, limpeza e carga)
+├── queries/        # Queries SQL de análise
+├── requirements.txt
+└── etl.log         # Logs de execução
+
+### Camadas
+
+- **Extração:** Leitura dos CSVs públicos do Kaggle (dataset Olist)
+- **Transformação:** Limpeza, remoção de duplicatas e normalização com pandas
+- **Carga:** Inserção nas tabelas do PostgreSQL via SQLAlchemy
+- **Análise:** Queries SQL com CTEs, Window Functions e agregações
+
 ## Pipeline ETL
 
 O script etl.py realiza:
