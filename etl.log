@@ -1,24 +1,24 @@
 2026-04-11 00:11:04,056 - INFO - ==================================================
 2026-04-11 00:11:04,057 - INFO - ETL iniciado: 11/04/2026 00:11:04
 2026-04-11 00:11:04,057 - INFO - ==================================================
-2026-04-11 00:11:04,107 - INFO - Extraindo: C:\Users\Evandro\pipeline-ecommerce\olist_orders_dataset.csv
+2026-04-11 00:11:04,107 - INFO - Extraindo: C:****************\pipeline-ecommerce\olist_orders_dataset.csv
 2026-04-11 00:11:07,155 - INFO - OK - 99441 linhas carregadas em "orders"
-2026-04-11 00:11:07,155 - INFO - Extraindo: C:\Users\Evandro\pipeline-ecommerce\olist_order_items_dataset.csv
+2026-04-11 00:11:07,155 - INFO - Extraindo: C:\**********\pipeline-ecommerce\olist_order_items_dataset.csv
 2026-04-11 00:11:10,717 - INFO - OK - 112650 linhas carregadas em "order_items"
-2026-04-11 00:11:10,718 - INFO - Extraindo: C:\Users\Evandro\pipeline-ecommerce\olist_customers_dataset.csv
+2026-04-11 00:11:10,718 - INFO - Extraindo: C:\Users\*******\pipeline-ecommerce\olist_customers_dataset.csv
 2026-04-11 00:11:12,580 - INFO - OK - 99441 linhas carregadas em "customers"
-2026-04-11 00:11:12,580 - INFO - Extraindo: C:\Users\Evandro\pipeline-ecommerce\olist_products_dataset.csv
+2026-04-11 00:11:12,580 - INFO - Extraindo: C:\Users\************\pipeline-ecommerce\olist_products_dataset.csv
 2026-04-11 00:11:13,900 - INFO - OK - 32951 linhas carregadas em "products"
-2026-04-11 00:11:13,901 - INFO - Extraindo: C:\Users\Evandro\pipeline-ecommerce\olist_sellers_dataset.csv
+2026-04-11 00:11:13,901 - INFO - Extraindo: C:\Users\**********\pipeline-ecommerce\olist_sellers_dataset.csv
 2026-04-11 00:11:13,975 - INFO - OK - 3095 linhas carregadas em "sellers"
-2026-04-11 00:11:13,976 - INFO - Extraindo: C:\Users\Evandro\pipeline-ecommerce\olist_order_payments_dataset.csv
+2026-04-11 00:11:13,976 - INFO - Extraindo: C:\Users\***********\pipeline-ecommerce\olist_order_payments_dataset.csv
 2026-04-11 00:11:16,063 - INFO - OK - 103886 linhas carregadas em "payments"
-2026-04-11 00:11:16,064 - INFO - Extraindo: C:\Users\Evandro\pipeline-ecommerce\olist_order_reviews_dataset.csv
+2026-04-11 00:11:16,064 - INFO - Extraindo: C:\Users\***********\pipeline-ecommerce\olist_order_reviews_dataset.csv
 2026-04-11 00:11:18,796 - INFO - OK - 99224 linhas carregadas em "reviews"
-2026-04-11 00:11:18,796 - INFO - Extraindo: C:\Users\Evandro\pipeline-ecommerce\olist_geolocation_dataset.csv
+2026-04-11 00:11:18,796 - INFO - Extraindo: C:\Users\***********\pipeline-ecommerce\olist_geolocation_dataset.csv
 2026-04-11 00:11:19,930 - INFO - geolocation: 261831 linhas removidas na limpeza
 2026-04-11 00:11:35,937 - INFO - OK - 738332 linhas carregadas em "geolocation"
-2026-04-11 00:11:35,937 - INFO - Extraindo: C:\Users\Evandro\pipeline-ecommerce\product_category_name_translation.csv
+2026-04-11 00:11:35,937 - INFO - Extraindo: C:\Users\**********\pipeline-ecommerce\product_category_name_translation.csv
 2026-04-11 00:11:35,974 - INFO - OK - 71 linhas carregadas em "category_translation"
 2026-04-11 00:11:35,974 - INFO - ==================================================
 2026-04-11 00:11:35,974 - INFO - ETL concluido: 9 tabelas OK, 0 erros
