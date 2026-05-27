@@ -19,7 +19,7 @@ def conectar():
     url = URL.create(
         'postgresql+psycopg2',
         username='postgres',
-        password='Evandro!123',
+        password='*********',
         host='localhost',
         port=5432,
         database='ecommerce'
@@ -49,7 +49,7 @@ def executar_etl():
     log.info('='*50)
 
     engine = conectar()
-    pasta = r'C:\Users\Evandro\pipeline-ecommerce'
+    pasta = r'C:\Users\********\pipeline-ecommerce'
 
     arquivos = {
         'olist_orders_dataset.csv': 'orders',
