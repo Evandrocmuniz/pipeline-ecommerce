@@ -5,10 +5,10 @@ import os, logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 log = logging.getLogger()
 
-url = URL.create('postgresql+psycopg2', username='postgres', password='Evandro!123', host='localhost', port=5432, database='ecommerce')
+url = URL.create('postgresql+psycopg2', username='postgres', password='***********', host='localhost', port=****, database='ecommerce')
 engine = create_engine(url)
 
-pasta = r'C:\Users\Evandro\pipeline-ecommerce'
+pasta = r'C:*********************'
 
 arquivos = {
     'olist_orders_dataset.csv': 'orders',
